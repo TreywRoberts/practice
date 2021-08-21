@@ -1,0 +1,315 @@
+{
+  "frames": [
+    {
+      "filename": "Hero2.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 0,
+        "w": 27,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 29,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroL2.png",
+      "frame": {
+        "x": 0,
+        "y": 32,
+        "w": 24,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 24,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroR2.png",
+      "frame": {
+        "x": 0,
+        "y": 64,
+        "w": 24,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 24,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroB2.png",
+      "frame": {
+        "x": 0,
+        "y": 96,
+        "w": 23,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 23,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "Hero1.png",
+      "frame": {
+        "x": 0,
+        "y": 128,
+        "w": 26,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 1,
+        "w": 26,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "Hero3.png",
+      "frame": {
+        "x": 23,
+        "y": 96,
+        "w": 25,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 1,
+        "w": 25,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroL1.png",
+      "frame": {
+        "x": 24,
+        "y": 32,
+        "w": 24,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 1,
+        "w": 24,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroL3.png",
+      "frame": {
+        "x": 27,
+        "y": 0,
+        "w": 24,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 0,
+        "w": 24,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 31
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroR1.png",
+      "frame": {
+        "x": 24,
+        "y": 63,
+        "w": 24,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 24,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 31
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroR3.png",
+      "frame": {
+        "x": 0,
+        "y": 159,
+        "w": 22,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 0,
+        "w": 22,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 31
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroB1.png",
+      "frame": {
+        "x": 0,
+        "y": 190,
+        "w": 23,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 1,
+        "w": 23,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 31
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "HeroB3.png",
+      "frame": {
+        "x": 22,
+        "y": 159,
+        "w": 23,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 23,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "Hero.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 51,
+      "h": 220
+    },
+    "scale": 1
+  }
+}
