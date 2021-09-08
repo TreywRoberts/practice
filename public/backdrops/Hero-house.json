@@ -23,26 +23,16 @@
          "name":"exit",
          "objects":[
                 {
-                 "height":27.3333333333333,
-                 "id":1,
-                 "name":"Exit",
+                 "gid":218,
+                 "height":32,
+                 "id":9,
+                 "name":"exit",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
-                 "width":20.6666666666667,
-                 "x":166,
-                 "y":226
-                }, 
-                {
-                 "height":0,
-                 "id":2,
-                 "name":"spawn",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":80,
-                 "y":75.3333333333333
+                 "visible":false,
+                 "width":32,
+                 "x":160,
+                 "y":256.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -78,8 +68,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":11,
- "nextobjectid":3,
+ "nextlayerid":12,
+ "nextobjectid":10,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.1",
@@ -313,12 +303,12 @@
                              "height":8,
                              "id":1,
                              "name":"",
-                             "rotation":359.467268432149,
+                             "rotation":359.467,
                              "type":"",
                              "visible":true,
                              "width":18,
-                             "x":-0.0368021155658376,
-                             "y":24.0838529746567
+                             "x":-0.0368021,
+                             "y":24.0839
                             }, 
                             {
                              "height":8,
@@ -350,7 +340,7 @@
                              "type":"",
                              "visible":true,
                              "width":18,
-                             "x":0.170122275385434,
+                             "x":0.170122,
                              "y":24
                             }],
                      "opacity":1,

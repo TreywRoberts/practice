@@ -26,6 +26,7 @@ export default class Hero extends Phaser.Physics.Arcade.Sprite{
         super(scene, x, y, texture, frame)
 
         this.anims.play('hero-walk-down')
+        
 
     }
 
@@ -107,6 +108,8 @@ Phaser.GameObjects.GameObjectFactory.register('hero', function(this: Phaser.Game
     this.updateList.add(sprite);
 
     this.scene.physics.world.enableBody(sprite, Phaser.Physics.Arcade.DYNAMIC_BODY);
+
+    sprite.body.setSize(sprite.width * 0.7)
 
     return sprite
 })

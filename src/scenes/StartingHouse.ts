@@ -1,4 +1,4 @@
-import Phaser from 'phaser'
+import Phaser, { Tilemaps } from 'phaser'
 
 import { createHeroAnims } from '../anims/HeroAnims'
 
@@ -30,18 +30,27 @@ export default class StartingHouse extends Phaser.Scene
         
         map.createLayer('Ground', tileset, 0, 0)
         const worldLayer = map.createLayer('World', tileset, 0, 0)
+        // const spawn = map.findObject('test', obj => obj.name === 'test')
         const aboveLayer = map.createLayer('Above', tileset, 0, 0)
-        const spawn = map.findObject('exit', obj => obj.name === 'spawn')
+        const exit = map.createFromObjects('exit', {gid:218})
+
+        exit.forEach(door=>{
+            this.physics.world.enable(door)
+            console.log(door)
+        })
+      
+     
+
+
     
         
         createHeroAnims(this.anims)
-        this.hero = this.add.hero(spawn.x, spawn.y, 'hero') 
+        this.hero = this.add.hero(80, 70, 'hero') 
 
        worldLayer.setCollisionByProperty({ collides: true })
+    
 
-       const exit = map.findObject('exit', obj => obj.name === 'Exit')
 
-       console.log(spawn)
 
 
     //    const debugGraphics = this.add.graphics().setAlpha(0.75);
@@ -54,9 +63,12 @@ export default class StartingHouse extends Phaser.Scene
  
 
        this.physics.add.collider(this.hero, worldLayer)
+       this.physics.add.collider(this.hero, exit, ()=>{
+           this.scene.start('town')
+       })
 
-
-
+       
+       
     }
     update(t: number, dt: number)
     {
@@ -64,6 +76,7 @@ export default class StartingHouse extends Phaser.Scene
             this.hero.update(this.cursors)
         }
         
+       
     }
 
 }

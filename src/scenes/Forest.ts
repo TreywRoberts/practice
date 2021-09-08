@@ -31,6 +31,12 @@ export default class Forest extends Phaser.Scene
 
        map.createLayer('Ground', tileset, 0, 0)
        const worldLayer = map.createLayer('World', tileset, 0, 0)
+       const exit = map.createFromObjects('exit', {id:2})
+       
+       exit.forEach(door=>{
+        this.physics.world.enable(door)
+        console.log(door)
+    })
        const aboveLayer = map.createLayer('Above', tileset, 0, 0)
 
        aboveLayer.setDepth(10)
@@ -55,12 +61,19 @@ export default class Forest extends Phaser.Scene
        bandits.get(650, 200, 'bad'),
 
        bandits.get(400, 150, 'bad')
+
+    
        
     this.physics.add.collider(this.hero, worldLayer)
     this.physics.add.collider(bandits, worldLayer)
     
+    
     this.physics.add.collider(bandits, this.hero, this.handleEnemyCollisions, undefined, this)
 
+    this.physics.add.collider(this.hero, exit, ()=>{
+        this.scene.start('town')
+        
+    })
 
     }
     private handleEnemyCollisions(obj1: Phaser.GameObjects.GameObject, obj2: Phaser.GameObjects.GameObject){
@@ -73,7 +86,11 @@ export default class Forest extends Phaser.Scene
 
         this.hero.handleDamage(dir)
 
+
+    
     }
+
+    
 
     update(t: number, dt: number)
     {

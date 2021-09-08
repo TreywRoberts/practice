@@ -36,11 +36,11 @@ export default class Bandit extends Phaser.Physics.Arcade.Sprite
         })
     }
 
-    destroy(fromScene?: boolean){
-        this.moveEvent.destroy()
+    // destroy(fromScene?: boolean){
+    //     this.moveEvent.destroy()
 
-        super.destroy(fromScene)
-    }
+    //     super.destroy(fromScene)
+    // }
     private handleTileCollision(go: Phaser.GameObjects.GameObject, tile: Phaser.Tilemaps.Tile){
         if (go !== this){
             return
